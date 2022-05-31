@@ -1,7 +1,43 @@
 common
 ********/
-body { font-family: monospace;sans-serif;
+body { font-family: "monospace";sans-serif;
 }
 .font-primary {color: #00ABAE;}
 .title-icon {font-size: 20px;
 font-weight: bold;}
+/***********
+#About
+***********/
+#about {
+    margin: 60px auto;
+    max-width: 400px;
+    text-align: center;
+}
+#about img {
+     border-radius: 50px;
+     width:120px;
+     margin-bottom: 10px;   
+}
+#about .name {
+    font-size: 19px;
+}
+#about .vocation {
+    font-size: 17px;
+    color: #8AA8AB;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#about .skills {
+    font-size: 14px;
+    color: #00abae;
+    margin-bottom: 10px;
+}
+#about .email{
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#about .icons{
+    margin-top: 20px;
+    font-size: 30px;
+}
