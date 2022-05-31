@@ -5,6 +5,18 @@ body { font-family: "monospace";sans-serif;
 .font-primary {color: #00ABAE;}
 .title-icon {font-size: 20px;
 font-weight: bold;}
+p{
+    font-size: 14px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+a.font-black{
+    color: #000 !important;
+}
 /***********
 #About
 ***********/
@@ -40,4 +52,20 @@ font-weight: bold;}
 #about .icons{
     margin-top: 20px;
     font-size: 30px;
+}
+********************/
+project
+*******************/
+#project{
+    margin: 60px auto;
+    width: 80;
+}
+#project{
+    text-align: center;
+}
+#project .card img{
+    width: 100%;
+}
+#project .card-title{
+    font-weight: bold;
 }
