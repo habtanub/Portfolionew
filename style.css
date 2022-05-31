@@ -58,9 +58,9 @@ project
 *******************/
 #project{
     margin: 60px auto;
-    width: 80;
+    width: 80%;
 }
-#project{
+#project h2{
     text-align: center;
 }
 #project .card img{
